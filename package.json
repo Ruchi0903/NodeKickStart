@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-backend-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "A backend boilerplate with user authentication, JWT-based login, password reset, and user management. Built with Express.js and MongoDB, it simplifies setting up secure and scalable backend services. Perfect for quickly starting new projects.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "format": "prettier --write ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Ruchi Yadav",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
