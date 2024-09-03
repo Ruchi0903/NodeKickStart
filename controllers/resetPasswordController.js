@@ -1,4 +1,3 @@
-// controllers/authController.js
 import crypto from 'crypto';
 import User from '../models/userModel.js';
 import { sendEmail } from '../utils/mailer.js';
@@ -24,8 +23,6 @@ export const requestPasswordReset = async (req, res, next) => {
     next(error);
   }
 };
-
-
 
 
 export const resetPassword = async (req, res, next) => {
